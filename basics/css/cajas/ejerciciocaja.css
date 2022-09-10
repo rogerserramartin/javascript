@@ -1,0 +1,41 @@
+body{
+    background-color:#eee;
+}
+
+.lacaja{
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color:gainsboro;
+    border-radius: 2px; /* Siempre queda mas bonito */
+    border-top: solid 0px;
+}
+
+.header{
+    padding: 10px;
+}
+
+.contenido{
+    border-top: solid 1px #eee;
+    padding: 10px;
+}
+
+.footer{
+    padding: 10px;
+    border-top: solid 1px #eee;
+}
+
+.primario{
+    border: 0px; /* le quitamos el borde por defecto que tiene*/
+    background-color: rgb(55, 120, 216);
+    padding: 5px;
+    color: white;
+}
+
+.secundario{
+    border: 0px; /* le quitamos el borde por defecto que tiene*/
+    background-color:darkgrey;
+    padding: 5px;
+    color: white;
+
+}
