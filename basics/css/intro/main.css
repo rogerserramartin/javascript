@@ -1,0 +1,17 @@
+/* selector de etiqueta */
+body{
+    /*background-color: aqua;*/
+    background-color:darkgray;
+    color: blueviolet; /* COLOR DE TEXTO */
+}
+/* selector de id-> un unico elemento con este id*/
+#parrafucho{
+    background-color:darkslategray;
+    color:cyan
+}
+/* selector de clase-> para varios elementos */
+.etiqueta{
+    background-color: blueviolet;
+    color: chartreuse;
+}
+

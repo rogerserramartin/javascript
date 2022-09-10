@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TITULO</title>
+    </head>
+    <body>
+        <form>
+            <fieldset> <!-- agrupa las etiquetas de dentro en una caja. Sirve en plan: datos personales, formacion, etc para que quede agrupadito-->
+                <legend>Datos agrupados</legend> <!-- le da un nombre al fieldset y lo muestra en la cajita -->
+                <label>Nombre</label> <!-- esto va al lado del input de la linea de abajo-->
+                <input type="text" placeholder="escribe aqui porfa"/> <!-- control + barra espaciadora muestra sugerencias del type, como intellij-->
+                <br/>
+
+                <label>Edad</label>
+                <input type="number" placeholder="indique su edad"/>
+                <br/>
+
+                <label>Fecha</label>
+                <input type="datetime">
+                <br/>
+
+                <label>Email</label>
+                <input type="email">
+                <br/>
+
+                <label>Contraseña</label>
+                <input type="password">
+                <br/>
+            </fieldset>
+
+            <textarea></textarea>
+            <input type="submit" value="CLICK AQUII"> <!--para enviar el valor del formulario-->
+            <button>CLICA AQUI</button> <!-- el submit con value es lo mismo que boton-->
+            <select>
+                <option value="goku">GOKU</option> <!-- obviamente el valor que enviamos es value=, el de dentro el tag es lo que ve el usuario-->
+                <option value="vegeta">VEGETA</option>
+                <option value="trunks">TRUNKS</option>
+            </select>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,9 @@
+body{
+    background-color: gainsboro;
+}
+
+.caja{
+    margin: 10px;
+    padding: 10px;
+    background-color: cornflowerblue;
+}
