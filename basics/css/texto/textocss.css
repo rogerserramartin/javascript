@@ -1,0 +1,22 @@
+body{
+    background-color: #eee;
+}
+p{
+    color:#222fff;
+    text-align: center; /* left, right, center son los mas importantes; por defecto es left*/
+    font-size: 20px;
+
+    
+}
+.muchotexto{
+    color:#ca422a;
+    text-align: justify; /* para que los textos grandes queden mejor*/
+    font-size: 15px;
+    text-decoration: underline;
+
+}
+a{
+    text-decoration: none; /* le quitamos el subrayado, le quitamos la mierda que sobra*/
+    text-transform: uppercase; /* mayus*/
+
+}
