@@ -1,0 +1,19 @@
+body{
+    background-color: #eee;
+}
+a{
+    color: rgb(228, 88, 78);
+}
+a:link{
+    color: rgb(81, 153, 39); /* estilo cuando no se ha clicado*/
+}
+a:visited{
+    color: blueviolet;
+}
+a:active{ /* cuando clicamos*/
+    color: cornflowerblue;
+}
+a:hover{ /* mouse por encima*/
+    color: chartreuse;
+    text-decoration: underline;
+}

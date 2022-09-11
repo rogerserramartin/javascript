@@ -1,0 +1,4 @@
+ul li{ /* seleccionar elemento dentro de un elemento a unicamente esos elementos: solo los li dentro de unordered lists*/
+    /*es como el hijo de ul*/
+    list-style-type: lower-alpha; /*lo que tiene delante cada elemento*/
+}
